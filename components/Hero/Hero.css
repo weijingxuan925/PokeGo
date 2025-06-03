@@ -50,3 +50,13 @@
         transform: scale(1); 
     }
 }
+.hero .slider-btn {
+    background-color: transparent; /* 移除填充 */
+    border: 1px solid var(--gold-crayola); /* 保留边框 */
+    opacity: 1; /* 设置透明度 */
+    transition: opacity 0.3s ease; /* 添加过渡效果 */
+}
+
+.hero .slider-btn:is(:hover, :focus-visible) {
+    opacity: 1; /* 鼠标悬停或聚焦时恢复不透明 */
+}
