@@ -12,10 +12,11 @@ const FooterBrand = () => {
         <div className="footer-brand has-before has-after">
             <Logo/>
             
-            <address className="body-4">Restaurant St, Delicious City, London 9578, UK</address>
-            <Link href="mailto:booking@grilli.com" className="link body-4 contact-link">booking@grilli.com</Link>
-            <Link href="tel:+88123123456" className="link body-4 contact-link">Booking Request : +88-123-123456</Link>
-            <p className="body-4">Open : 09:00 am - 01:00 pm</p>
+            <address className="body-4">1588 Granville St, Halifax, NS B3J 1X1</address>
+            {/*TODO : 更新电话号码，和邮件 */}
+            <Link href="mailto:booking@grilli.com" className="link body-4 contact-link">booking@xxx.com</Link>
+            <Link href="tel:+xxx" className="link body-4 contact-link">Booking Request : +xxxxx</Link>
+            <p className="body-4">Open : 11:00 am - 08:00 pm</p>
 
             <div className="wrapper">
                 <Separator/>
