@@ -1,73 +1,95 @@
-.container{ padding-inline: 16px;}
+.container {
+    padding-inline: 16px;
+    max-width: 1200px;
+    margin-inline: auto;
+}
 
-.section{
+.section {
     position: relative;
     padding-block: var(--section-space);
     overflow: hidden;
-    z-index: 1; 
+    z-index: 1;
 }
 
-.bg-black-10{ background-color: var(--smoky-black-2);}
+.bg-black-10 {
+    background-color: var(--smoky-black-2);
+}
 
-.text-center{ text-align: center;}
+.text-center {
+    text-align: center;
+}
 
-.shape{
+.shape {
     display: none;
     position: absolute;
     max-width: max-content;
     z-index: -1;
-} 
-
-.service .section-title{ margin-block-end: 16px;}
-
-.service .section-text{ 
-    margin-block-end: 40px;
 }
 
-@media (min-width: 575px){
-    .service .container{
-        min-width: 420px;
-        margin-inline: auto;
+.service .section-title {
+    margin-block-end: 16px;
+}
+
+.service .section-text {
+    margin-block-end: 75px;
+    position: relative;
+    z-index: 2;
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    text-align: center;
+    max-width: 800px;
+    margin-inline: auto;
+}
+
+.service .shape {
+    z-index: 1;
+}
+
+@media (min-width: 576px) {
+    .service .container {
+        padding-inline: 24px;
+    }
+
+    .service .section-text {
+        padding-inline: 32px;
     }
 }
 
-@media (min-width: 768px){
-    .service .section-text{ 
-        padding-inline: 60px;
+@media (min-width: 768px) {
+    .service .section-text {
+        padding-inline: 48px;
     }
 }
 
-@media (min-width: 992px){
-    .service .shape{ 
+@media (min-width: 992px) {
+    .service .shape {
         display: block;
     }
-    
-    .service .shape-1{
-        bottom: 0;
+
+    .service .shape-1 {
+        bottom: -50px;
         left: 0;
     }
-    
-    .service .shape-2{
-        top: 0;
+
+    .service .shape-2 {
+        top: -50px;
         right: 0;
     }
 }
 
-@media (min-width:1200px){
-    .service .grid-list{ 
-        gap: 150px;
+@media (min-width: 1200px) {
+    .service .grid-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
     }
-    
-    .service .grid-list li:nth-child(2n+1){
-        transform: translateY(-160px);
+
+    .service .grid-list li:nth-child(2n+1) {
+        transform: translateY(-50px);
     }
-    
-    .service .section-text{ 
-        border: 1px solid slateblue;
-        margin-block-end: 75px;
-        /* max-width: max-content; */
-    }  
+
+    .service .section-text {
+        padding-inline: 60px;
+    }
 }
-
-
-

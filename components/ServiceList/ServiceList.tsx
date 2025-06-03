@@ -6,7 +6,7 @@ const ServiceList = () => {
         <ul className="grid-list">
             <ServiceCard
                 cardNumber={1}
-                cardTitle='Breakfast'
+                cardTitle='Noodles'
             />
             <ServiceCard
                 cardNumber={2}
@@ -14,7 +14,7 @@ const ServiceList = () => {
             />
             <ServiceCard
                 cardNumber={3}
-                cardTitle='Drinks'
+                cardTitle='Poke Bowls'
             />
         </ul>
     )
