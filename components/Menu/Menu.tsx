@@ -12,7 +12,7 @@ const Menu = () => {
                 <h2 className={`${forum.className} headline-1 section-title text-center`}>Delicious Menu</h2>
                 <MenuList/>
                 <p className="menu-text text-center">
-                    During winter daily from <span className="span">7:00 pm</span> to <span className="span">9:00 pm</span>
+                    During winter daily from <span className="span">11:00 am</span> to <span className="span">8:00 pm</span>
                 </p>
                 <Link href="/" className="link btn btn-primary">
                     <span className="text text-1">View All Menu</span>

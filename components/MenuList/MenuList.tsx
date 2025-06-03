@@ -5,33 +5,34 @@ const MenuList = () => {
         <ul className='grid-list'>
             <MenuCard
                 cardNumber={1}
-                cardTitle='Greek Salad'
-                activeSeasonal={true}
-                cardPrice={25.50}
-                cardDescription='Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.'
+                cardTitle='Taiwanese beef'
+                // activeSeasonal={true}
+                cardPrice={17.00}
+                cardDescription='Beef shank, Scallion,Cilantro'
             />
             <MenuCard
-                cardNumber={2}
+                cardNumber={4}
                 cardTitle='Lasagne'
                 cardPrice={40.00}
                 cardDescription='Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices.'
             />
             <MenuCard
                 cardNumber={3}
-                cardTitle='Butternut Pumpkin'
+                cardTitle='Miso (vg)'
+                activeVegetarian={true}
                 cardPrice={10.00}
                 cardDescription='Roasted butternut pumpkin, tender and sweet, enhanced with irresistible autumnal spices and flavors.'
             />
             <MenuCard
-                cardNumber={4}
+                cardNumber={5}
                 cardTitle='Fields With Chard'
                 activeNew={true}
                 cardPrice={39.00}
                 cardDescription='Wholesome medley: Fields with chard, a savory and nutritious culinary delight.'
             />
             <MenuCard
-                cardNumber={5}
-                cardTitle='Olivas Rellenas'
+                cardNumber={2}
+                cardTitle='Miso (vg)'
                 cardPrice={25.00}
                 cardDescription='Avocados with crab meat, red onion, crab salad stuffed red bell pepper and green bell pepper.'
             />
