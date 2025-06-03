@@ -23,7 +23,7 @@ const TopBar = () => {
                     containedStyles="topbar-item"
                     link={true}
                     iconName={ionIcons.callOutline}
-                    description="+1 （902) (423)-5854"
+                    description="+1 （902) 423-5854"
                 />
                 <Separator/>
                 <TopBarItem
