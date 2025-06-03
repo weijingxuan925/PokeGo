@@ -62,45 +62,56 @@ export const schedules = [
 ]
 
 export const LINKS = {
-    company: [
+    // company: [
+    //     {
+    //         href:'/',
+    //         name:'Home'
+    //     },
+    //     {
+    //         href:'/',
+    //         name:'About Us'
+    //     },
+    //     {
+    //         href:'/',
+    //         name:'Our Chefs'
+    //     },
+    //     {
+    //         href:'/',
+    //         name:'Contact'
+    //     }
+    // ],
+    partners: [
         {
-            href:'/',
-            name:'Home'
+            href: 'https://www.ubereats.com/ca/store/poke-go-%26-broth-house/1qnbMUxjVKuUjRg9NAYj-A',
+            name: 'Uber Eats'
         },
         {
-            href:'/',
-            name:'About Us'
+            href: 'https://www.doordash.com/en-CA/store/poke-go-and-broth-house-halifax-30259930/39552946/',
+            name: 'DoorDash'
         },
         {
-            href:'/',
-            name:'Our Chefs'
+            href: 'https://www.skipthedishes.com/poke-go-and-broth-house-granville-street',
+            name: 'SkipTheDishes'
         },
         {
-            href:'/',
-            name:'Contact'
+            href: 'https://ali.fantuan.ca/zh-CN/store/poke-go-and-broth-house/ca-23197',
+            name: 'FanTuan'
         }
     ],
     socialNetworks: [
         {
-            href:'/',
+            href:'https://www.facebook.com/BrothHouseHalifax/',
             name:'Facebook'
         },
         {
-            href:'/',
+            href:'https://www.instagram.com/pokegobrothhousehalifax/',
             name:'Instagram'
         },
         {
-            href:'/',
-            name:'Twitter'
-        },
-        {
-            href:'/',
-            name:'Youtube'
-        },
-        {
-            href:'/',
+            href:'https://www.google.com/maps/place/Poke+Go+%26+Broth+House/@44.646006,-63.5728597,17z/data=!4m14!1m7!3m6!1s0x4b5a2331a09f3d4b:0xcd8cdf475edcb817!2sPoke+Go+%26+Broth+House!8m2!3d44.646006!4d-63.5728597!16s%2Fg%2F11r25cpp0w!3m5!1s0x4b5a2331a09f3d4b:0xcd8cdf475edcb817!8m2!3d44.646006!4d-63.5728597!16s%2Fg%2F11r25cpp0w?entry=ttu&g_ep=EgoyMDI1MDUyOC4wIKXMDSoASAFQAw%3D%3D',
             name:'Google Map'
-        }
+        },
+
     ]
 }
 
