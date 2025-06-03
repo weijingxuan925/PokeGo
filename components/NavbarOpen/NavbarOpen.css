@@ -2,25 +2,38 @@
     #NAVBAR OPEN STYLES
 \*----------------------*/
 
-.nav-open-btn{
-    padding: 12px;
-    padding-inline-end: 0; 
+.nav-open-btn {
+    display: none; /* 默认隐藏 */
 }
 
-.nav-open-btn .line{
+@media (max-width: 992px) {
+    .nav-open-btn {
+        display: block; /* 在小屏幕下显示 */
+    }
+}
+
+.nav-open-btn .line {
     width: 30px;
     height: 2px;
     background-color: var(--white);
-    margin-block: 4px;      
-    transform-origin: left; 
+    margin-block: 4px;
+    transform-origin: left;
     animation: menuBtn 400ms ease-in-out alternate infinite;
 }
 
 @keyframes menuBtn {
-    0%{ transform: scaleX(1); } 
-    100%{ transform: scaleX(0.5); } 
+    0% {
+        transform: scaleX(1);
+    }
+    100% {
+        transform: scaleX(0.5);
+    }
 }
 
-.nav-open-btn .line-2{ animation-delay: 150ms;} 
+.nav-open-btn .line-2 {
+    animation-delay: 150ms;
+}
 
-.nav-open-btn .line-3{ animation-delay: 300ms;} 
+.nav-open-btn .line-3 {
+    animation-delay: 300ms;
+}
