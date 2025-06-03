@@ -4,6 +4,18 @@ import { forum } from '@/app/fonts';
 import { NavBarInfoProps } from '@/types/types';
 import { Separator } from '../components';
 
+/**
+ * NavbarInfo component displays the information in the navbar.
+ * @param title
+ * @param location
+ * @param city
+ * @param schedule
+ * @param email
+ * @param contact
+ * @param phone
+ * @constructor
+ * @description 完成修改
+ */
 const NavbarInfo = ({title, location, city, schedule, email, contact, phone} : NavBarInfoProps) => {
     return (
         <div className="text-center">

@@ -1,9 +1,13 @@
-.topbar{ display: none; }
+.topbar {
+    display: none;
+}
 
-.container{ padding-inline: 16px; }
+.container {
+    padding-inline: 16px;
+}
 
-@media (min-width: 575px){
-    .topbar{
+@media (min-width: 575px) {
+    .topbar {
         display: block;
         position: fixed;
         top: 0;
@@ -15,48 +19,54 @@
         transition: var(--transition-1);
     }
 
-    .topbar:has(~ .header.active){
+    .topbar:has(~ .header.active) {
         transform: translateY(-100%);
     }
-    
-    .topbar .container, .topbar-item{
+
+    .topbar .container,
+    .topbar-item {
         display: flex;
         align-items: center;
     }
-    
-    .topbar .container{
+
+    .topbar .container {
         justify-content: center;
         gap: 30px;
     }
-    
-    .topbar-item{ gap: 6px; }
-    
-    .topbar-item .ion-icon{ --ionicon-stroke-width: 60px; }
-    
-    .topbar-item .span{ font-size: var(--fontSize-label-1);}
-    
-    .topbar .link{
+
+    .topbar-item {
+        gap: 6px;
+    }
+
+    .topbar-item .ion-icon {
+        --ionicon-stroke-width: 60px;
+    }
+
+    .topbar-item span {
+        font-size: var(--fontSize-label-1);
+    }
+
+    .topbar .link {
         transition: var(--transition-1);
     }
 
-    .topbar .link:is(:hover, :focus-visible){
+    .topbar .link:is(:hover, :focus-visible) {
         color: var(--gold-crayola);
-    } 
+    }
 }
 
-@media (min-width: 992px){
-    .topbar .item-2{ 
+@media (min-width: 992px) {
+    .topbar .item-2 {
         margin-inline-end: auto;
-    } 
+    }
 }
 
-@media (min-width: 1200px){
-    .topbar .container{ 
+@media (min-width: 1200px) {
+    .topbar .container {
         max-width: unset;
     }
-    
-    .topbar .separator{ 
+
+    .topbar .separator {
         display: block;
     }
 }
-
