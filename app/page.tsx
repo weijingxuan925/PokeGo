@@ -19,8 +19,8 @@ export default function Home() {
         <About/>
         <SpecialDish/>
         <Menu/>
-        <Testimonials/>
-        <Reservation/>
+        {/*<Testimonials/>*/}
+        {/*<Reservation/>*/}
         <Feature/>
         <Event/>
       </article>
