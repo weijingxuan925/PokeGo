@@ -1,4 +1,4 @@
-import './separator.css';
+import './Separator.css';
 import { SeparatorProps } from '@/types/types';
 
 const Separator = ({containedStyles} : SeparatorProps) => {
