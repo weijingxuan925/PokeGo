@@ -23,30 +23,31 @@
         transform: translateY(-100%);
     }
 
-    .topbar .container,
-    .topbar-item {
+    .topbar .container {
         display: flex;
         align-items: center;
-    }
-
-    .topbar .container {
         justify-content: center;
         gap: 30px;
+        flex-wrap: wrap; /* 确保在小屏幕下换行 */
     }
 
     .topbar-item {
-        gap: 6px;
         display: flex;
         align-items: center;
-        gap: 8px;
+        gap: 8px; /* 图标和文字之间的间距 */
+        color: var(--white);
+        font-size: var(--fontSize-label-1);
+        text-decoration: none;
     }
 
     .topbar-item .ion-icon {
-        --ionicon-stroke-width: 60px;
+        font-size: 16px; /* 图标大小 */
+        flex-shrink: 0; /* 防止图标缩小 */
     }
 
     .topbar-item span {
         font-size: var(--fontSize-label-1);
+        white-space: nowrap; /* 防止文字换行 */
     }
 
     .topbar .link {
@@ -60,7 +61,7 @@
 
 @media (min-width: 992px) {
     .topbar .item-2 {
-        margin-inline-end: auto;
+        margin-inline-end: auto; /* 将特定项推到右侧 */
     }
 }
 
