@@ -7,8 +7,8 @@ const Logo = () => {
         <Link href="/" className="link logo">
             {/*TODO : 左上角图标需要更新 */}
             <Image
-                src='logo/tra-logo.jpg'
-                alt='Grilli-Logo'
+                src='logo/poke1.png'
+                alt='poke-logo'
                 width={160}
                 height={50}
                 className='d-block hght-auto'

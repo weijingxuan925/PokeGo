@@ -4,7 +4,7 @@ import './globals.css';
 import { BackToTop, Footer, Navbar, TopBar } from '@/components/components';
 
 export const metadata: Metadata = {
-    title: 'Grilli Restaurant',
+    title: 'Poke go & broth house',
     description: 'Discover the best dishes in the world',
 }
 
