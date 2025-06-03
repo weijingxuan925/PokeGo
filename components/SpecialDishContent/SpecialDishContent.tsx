@@ -15,13 +15,14 @@ const SpecialDishContent = () => {
                     className='d-block hght-auto abs-img'
                 />
                 <p className="section-subtitle label-2">Special Dish</p>
-                <h2 className={`${forum.className} headline-1 section-title`}>Tonkatsu</h2>
+                <h2 className={`${forum.className} headline-1 section-title`}>Chicken Teriyaki</h2>
                 <p className="section-text">
-                    Indulge in our signature Tonkatsu Ramen — crispy, golden perfection paired with tender, juicy pork. Crafted with precision and passion, it’s a celebration of flavor and culinary mastery in every bite.
+                    Succulent grilled chicken glazed in our signature teriyaki sauce, served with rich chicken broth, sweet corn, and a hint of black garlic oil. Finished with fresh scallions for a perfect balance of flavor and elegance.
                 </p>
+
                 <div className="wrapper">
                     <del className="del body-3">$20.00</del>
-                    <span className="span body-1">$16.50</span>
+                    <span className="span body-1">$17.00</span>
                 </div>
                 <Link href="/menu" className="link btn btn-primary">
                     <span className="text text-1">View All Menu</span>
