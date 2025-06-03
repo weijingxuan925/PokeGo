@@ -7,7 +7,7 @@ const SpecialDish = () => {
         <section className="special-dish text-center">
             <div className="special-dish-banner">
                 <Image
-                    src='/special-dish-banner.jpg'
+                    src='/Special/spe.jpg'
                     alt='special-dish'
                     width={948}
                     height={900}

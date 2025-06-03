@@ -9,7 +9,7 @@
 }
 
 .special-dish-content .del{
-    text-decoration: none;
+    text-decoration: line-through;
     color: var(--davys-grey); 
 }
 

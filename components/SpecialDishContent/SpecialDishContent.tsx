@@ -15,13 +15,15 @@ const SpecialDishContent = () => {
                     className='d-block hght-auto abs-img'
                 />
                 <p className="section-subtitle label-2">Special Dish</p>
-                <h2 className={`${forum.className} headline-1 section-title`}>Lobster Tortallini</h2>
-                <p className="section-text">Savor the essence of our Lobster Tortellini, a culinary delight that tantalizes the taste buds. Expertly crafted with the utmost care, this dish showcases the artistry of our chefs and the dedication we bring to every plate.</p>
+                <h2 className={`${forum.className} headline-1 section-title`}>Tonkatsu</h2>
+                <p className="section-text">
+                    Indulge in our signature Tonkatsu Ramen — crispy, golden perfection paired with tender, juicy pork. Crafted with precision and passion, it’s a celebration of flavor and culinary mastery in every bite.
+                </p>
                 <div className="wrapper">
-                    <del className="del body-3">$40.00</del>
-                    <span className="span body-1">$20.00</span>
+                    <del className="del body-3">$20.00</del>
+                    <span className="span body-1">$16.50</span>
                 </div>
-                <Link href="/" className="link btn btn-primary">
+                <Link href="/menu" className="link btn btn-primary">
                     <span className="text text-1">View All Menu</span>
                     <span className="text text-2">View All Menu</span>
                 </Link>
