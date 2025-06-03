@@ -1,0 +1,18 @@
+.link.btn {
+    display: inline-flex; /* 使用 flexbox 布局 */
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    padding: 10px 20px;
+    background-color: var(--gold-crayola);
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    white-space: nowrap; /* 防止换行 */
+    text-align: center; /* 确保文字居中 */
+}
+
+.link.btn span {
+    display: inline-block;
+    white-space: nowrap; /* 确保文本不换行 */
+}

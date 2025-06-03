@@ -2,119 +2,163 @@
     #REUSED STYLE
 \*-----------------*/
 
-.container{ padding-inline: 16px; }
+.container {
+    padding-inline: 16px;
+}
 
 /*----------------------*\
     #NAVBAR STYLES
 \*----------------------*/
 
-.header{
+.header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     background-color: transparent;
-    padding-block: 40px; 
+    padding-block: 40px;
     z-index: 4;
     border-block-end: 1px solid transparent;
-    transition: var(--transition-1); 
+    transition: var(--transition-1);
 }
 
-.header.active{
+.header.active {
     padding-block: 20px;
     background-color: var(--eerie-black-4);
     border-color: var(--black-alpha-15);
 }
 
-.header.hide{
-    transform: translateY(-100%); 
+.header.hide {
+    transform: translateY(-100%);
     transition-delay: 250ms;
 }
 
-.header .container{
+.header .container {
     padding-inline: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 8px; 
+    gap: 8px;
 }
 
-.header .btn{ display: none; }
+.header .btn {
+    display: none;
+}
 
-.navbar{
-    position: fixed;
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 16px;
     background-color: var(--smoky-black-1);
-    top: 0;      
-    left: -360px;             
-    bottom: 0;                
-    max-width: 360px;          
+    position: fixed;
+    top: 0;
+    left: -360px;
+    bottom: 0;
+    max-width: 360px;
     width: 100%;
     padding-inline: 30px;
-    padding-block-end: 50px; 
-    overflow-y: auto;        
+    padding-block-end: 50px;
+    overflow-y: auto;
     visibility: hidden;
     z-index: 2;
-    transition: var(--transition-2); 
+    transition: var(--transition-2);
 }
 
-.navbar.active{
+.navbar.active {
     visibility: visible;
-    transform: translateX(360px); 
+    transform: translateX(360px);
 }
 
-.navbar::-webkit-scrollbar-thumb{
-    background-color: var(--white-alpha-10); 
+.navbar::-webkit-scrollbar-thumb {
+    background-color: var(--white-alpha-10);
 }
 
-.overlay{
+.navbar-list {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-reserve {
+    flex: 0 0 auto;
+}
+
+.overlay {
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     background-color: var(--black-alpha-80);
-    opacity: 0; 
-    pointer-events: none;  
+    opacity: 0;
+    pointer-events: none;
     transition: var(--transition-2);
     z-index: 1;
 }
 
-.overlay.active{
+.overlay.active {
     opacity: 1;
-    pointer-events: all; 
-}  
+    pointer-events: all;
+}
 
-@media (min-width: 575px){
-    .header{ top: 51px; }
-    
-    .header.active{ top: 0; }
-    
-    .header .btn{
+@media (min-width: 575px) {
+    .header {
+        top: 51px;
+    }
+
+    .header.active {
+        top: 0;
+    }
+
+    .header .btn {
         display: block;
         margin-inline-start: auto;
     }
 }
 
-@media (min-width: 1200px){
-    .nav-open-btn, .navbar > *:not(.navbar-list), .header .overlay{
+@media (min-width: 1200px) {
+    .nav-open-btn,
+    .navbar > *:not(.navbar-list),
+    .header .overlay {
         display: none;
     }
-    
-    .header .container{ max-width: unset; }
-    
-    .navbar, .navbar.active, .navbar-list{ all: unset; }
-    
-    .navbar, .navbar.active{ 
-        margin-inline: auto 20px;
+
+    .header .container {
+        max-width: unset;
     }
-    
-    .navbar .separator{ display: none; }
-    
-    .header .btn{ margin-inline-start: 0; }
+
+    .navbar,
+    .navbar.active {
+        position: static;
+        transform: none;
+        visibility: visible;
+        display: flex;
+        justify-content: space-between;
+        max-width: unset;
+        padding: 0;
+        background-color: transparent;
+    }
+
+    .navbar-list {
+        justify-content: center;
+    }
+
+    .navbar-reserve {
+        margin-inline-start: auto;
+    }
+
+    .header .btn {
+        margin-inline-start: 0;
+    }
 }
 
-@media(min-width: 1400px){
-    .navbar{ 
+@media (min-width: 1400px) {
+    .navbar {
         margin-inline: auto;
     }
 }

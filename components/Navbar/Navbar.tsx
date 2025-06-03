@@ -2,42 +2,40 @@
 
 import './Navbar.css';
 import { useEffect, useState } from 'react';
-import { 
-    Logo, 
-    NavbarClose, 
-    NavbarInfo, 
-    NavbarList, 
-    NavbarOpen, 
-    NavbarReserve 
+import {
+    Logo,
+    NavbarClose,
+    NavbarInfo,
+    NavbarList,
+    NavbarOpen,
+    NavbarReserve
 } from '../components';
-
 
 const Navbar = () => {
     const [openMenu, setOpenMenu] = useState(false);
     const [scrolled, setScrolled] = useState(false);
-    
+
     useEffect(() => {
-        const handleScrool = () => {
-            const isScrooled = window.scrollY >= 50;
-            setScrolled(isScrooled);
+        const handleScroll = () => {
+            const isScrolled = window.scrollY >= 50;
+            setScrolled(isScrolled);
         };
 
-        window.addEventListener('scroll', handleScrool);
-        
+        window.addEventListener('scroll', handleScroll);
+
         return () => {
-            window.removeEventListener('scroll', handleScrool);
-        }
-    }, [])
-    
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
 
     return (
         <header className={`header ${scrolled && 'active'}`}>
             <div className="container">
-                <Logo/>
+                <Logo />
                 <nav className={`navbar ${openMenu && 'active'}`}>
-                    <NavbarClose handleButtonsMenu={() => setOpenMenu(!openMenu)}/>
-                    <Logo/>
-                    <NavbarList/>
+                    <NavbarClose handleButtonsMenu={() => setOpenMenu(!openMenu)} />
+                    <Logo />
+                    <NavbarList />
                     <NavbarInfo
                         title="Visit Us"
                         location="Restaurant St, Delicious City,"
@@ -48,15 +46,15 @@ const Navbar = () => {
                         phone="+88-123-123456"
                     />
                 </nav>
-                <NavbarReserve containedStyles="text text-"/>
-                <NavbarOpen 
+                <NavbarReserve containedStyles="text text-" />
+                <NavbarOpen
                     handleButtonsMenu={() => setOpenMenu(!openMenu)}
                     containedStyles="line line-"
-                />    
+                />
                 <div className={`overlay ${openMenu && 'active'}`}></div>
             </div>
         </header>
-    )
-}
+    );
+};
 
 export default Navbar;
