@@ -16,12 +16,12 @@ const EventList = () => {
                 cardDate='08/04/2024'
                 cardDescription='An enriching event celebrating wellness with delectable, nourishing, and wholesome cuisine.'
             />
-            <EventCard
-                cardNumber={3}
-                cardTitle='Recipie'
-                cardDate='03/02/2024'
-                cardDescription='A culinary journey exploring diverse flavors and creativity in every recipe.'
-            />
+            {/*<EventCard*/}
+            {/*    cardNumber={3}*/}
+            {/*    cardTitle='Recipie'*/}
+            {/*    cardDate='03/02/2024'*/}
+            {/*    cardDescription='A culinary journey exploring diverse flavors and creativity in every recipe.'*/}
+            {/*/>*/}
         </ul>
     )
 }

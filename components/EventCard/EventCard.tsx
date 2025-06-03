@@ -15,8 +15,6 @@ const EventCard = ({cardNumber, cardTitle, cardDate, cardDescription} : MenuCard
                         height={450}
                         className='d-block hght-auto img-cover'
                     />
-                    {/* <img src="./assets/img/event-1.jpg" width="350" height="450" loading="lazy" alt="Flavour so good you’ll try to eat with your eyes." class="img-cover"> */}
-                    {/* <time className="publisher-date label-2" datetime="2022-09-15">15/09/2022</time> */}
                     <time className="publisher-date label-2">{cardDate}</time>
                 </div>
                 <div className="card-content">
