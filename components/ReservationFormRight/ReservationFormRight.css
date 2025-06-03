@@ -1,0 +1,21 @@
+.form-right .headline-1{ margin-block-end: 40px; }
+
+.form-right .contact-label{ margin-block-end: 5px; }
+
+.form-right .separator{ margin: 20px auto;}
+
+.form-right .body-4{
+    color: var(--quick-silver);
+    line-height: var(--lineHeight-3); 
+}
+
+.form-right .body-4:not(:last-child){ 
+    margin-block-end: 25px; 
+}
+
+.form-right{ 
+    padding: 40px 20px 30px; 
+    background-repeat: repeat;
+    background-position: top left;
+} 
+

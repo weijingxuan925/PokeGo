@@ -1,0 +1,8 @@
+.separator{
+    width: 8px;
+    height: 8px;
+    border: 1px solid var(--gold-crayola);
+    transform: rotate(45deg); 
+}
+
+

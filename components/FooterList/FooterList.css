@@ -1,0 +1,11 @@
+.footer-list{
+    display: grid;
+    gap: 20px;
+}
+
+@media (min-width:992px){
+    .footer-list:last-child{ 
+        order: 2;
+    }
+}
+

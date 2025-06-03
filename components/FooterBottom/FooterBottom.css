@@ -1,0 +1,10 @@
+.copyright{
+    color: var(--quick-silver);
+    line-height: var(--lineHeight-1);
+}
+
+.copyright .link{
+    display: inline;
+    color: var(--gold-crayola);
+    text-decoration: underline;
+} 

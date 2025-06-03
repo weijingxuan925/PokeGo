@@ -1,0 +1,15 @@
+.w-100{ width: 100%; }
+
+.about-banner{
+    position: relative;
+    margin-block-end: 120px;
+}
+
+.about-banner > .w-100{ padding-inline-start: 50px;}
+
+@media (min-width:575px){
+    .about-banner > .w-100{
+        padding-inline-start: 90px;
+    }
+}
+

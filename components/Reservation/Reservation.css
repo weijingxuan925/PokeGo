@@ -1,0 +1,18 @@
+@media (min-width: 768px){
+    .reservation .input-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+    }
+}
+
+.reservation .input-wrapper:nth-child(4){
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media (min-width: 992px){
+    .reservation-form{
+        display: flex;
+        grid-template-columns: 1fr 0.5fr;
+    }
+}

@@ -1,0 +1,12 @@
+.footer-link{
+    color: var(--quick-silver);
+    font-weight: var(--weight-bold);
+    text-transform: uppercase;
+    letter-spacing: var(--letterSpacing-4);
+    margin-inline: auto;
+    transition: var(--transition-1); 
+}
+
+.footer-link:is(:hover, :focus-visible){
+    color: var(--gold-crayola);
+}

@@ -1,0 +1,52 @@
+.hero{
+    position: relative;
+    padding-block: 120px;
+    min-height: 100vh;
+    overflow: hidden;
+    z-index: 1; 
+}
+
+.text-center{ text-align: center; }
+
+@media (min-width:768px){
+    .hero .slider-btn{
+        display: grid;
+        position: absolute;
+        z-index: 1;
+        color: var(--gold-crayola);
+        font-size: 2.4rem;
+        border: 1px solid var(--gold-crayola);
+        width: 45px;
+        height: 45px;
+        place-items: center;
+        top: 50%;
+        transform: translateY(-50%) rotate(45deg);
+        transition: var(--transition-1);  
+        cursor: pointer;
+    }
+
+    .hero .slider-btn .ion-icon { 
+        transform: rotate(-45deg);
+    }
+
+    .hero .slider-btn.prev{ left: 30px; }
+
+    .hero .slider-btn.next{ right: 30px;}
+
+    .hero .slider-btn:is(:hover, :focus-visible){
+        background-color: var(--gold-crayola);
+        color: var(--black);
+    }
+}
+
+@media (min-width:1200px) {
+    .hero{ 
+        height: 880px;
+    }
+    
+    .hero-btn{
+        bottom: 50px;
+        right: 50px;
+        transform: scale(1); 
+    }
+}

@@ -1,0 +1,12 @@
+@media (min-width: 575px){
+    .topbar-item:not(.link), .topbar .separator{
+        display: none;
+    }
+}
+
+@media (min-width: 992px){
+    .topbar-item:not(.link){ 
+        display: flex;
+    }
+}
+

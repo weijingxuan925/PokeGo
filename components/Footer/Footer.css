@@ -1,0 +1,8 @@
+@media (min-width: 992px){
+    .footer .grid-list{
+        grid-template-columns: 0.45fr 1fr 0.45fr;
+        align-items: center;
+    }
+}
+
+

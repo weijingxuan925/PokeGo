@@ -1,0 +1,28 @@
+.back-top-btn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--gold-crayola);
+    color: var(--smoky-black-1);
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    border-radius: var(--radius-circle);
+    place-items: center;
+    box-shadow: var(--shadow-1);
+    transition: var(--transition-1);
+    opacity: 1;
+    visibility: hidden;
+    z-index: 4;  
+}
+
+.back-top-btn:is(:hover, :focus-visible){
+    background-color: var(--white);
+    color: var(--gold-crayola);
+}
+
+.back-top-btn.active{
+    opacity: 1;
+    visibility: visible;
+} 

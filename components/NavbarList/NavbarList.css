@@ -1,0 +1,17 @@
+.navbar-list{
+    border-block-end: 1px solid var(--white-alpha-20);
+    margin-block-end: 100px;
+}
+
+@media (min-width: 768px){
+    .navbar-list{
+        margin-inline: 30px;  
+    }
+}
+
+@media (min-width: 1200px){
+    .navbar-list{
+        display: flex;
+        gap: 30px;
+    }
+}
