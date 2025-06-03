@@ -22,7 +22,7 @@ export default function Home() {
         {/*<Testimonials/>*/}
         {/*<Reservation/>*/}
         <Feature/>
-        <Event/>
+        {/*<Event/>*/}
       </article>
     </main>
   )
