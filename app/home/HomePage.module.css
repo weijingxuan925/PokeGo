@@ -3,10 +3,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: calc(100vh - 80px); /* 减去 TopBar 的高度 */
     padding: 20px;
     text-align: center;
     box-sizing: border-box;
-    /* background-color: #fff; 移除或更改为透明 */
     background-color: transparent;
+    height: auto; /* 自动调整高度 */
 }

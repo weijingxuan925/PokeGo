@@ -119,14 +119,15 @@ html{
   scroll-behavior: smooth; 
 }
 
-body{
+body {
   background-color: var(--eerie-black-1);
   color: var(--white);
   font-size: var(--fontSize-body-4);
   font-weight: var(--weight-regular);
   line-height: var(--lineHeight-5);
-  /* overflow: hidden;   */
-  height: 300vh;
+  height: auto; /* 修改为 auto，避免多余空白 */
+  margin: 0;
+  padding: 0;
 }
 
 body.loaded{ overflow: overlay; }
