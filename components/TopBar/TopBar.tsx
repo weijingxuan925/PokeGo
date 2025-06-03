@@ -10,20 +10,20 @@ const TopBar = () => {
                     containedStyles="topbar-item"
                     link={false}
                     iconName={ionIcons.locationOutline}
-                    description="Restaurant St, Delicious City, London 9578, UK"
+                    description="1588 Granville St, Halifax, NS B3J 1X1"
                 />
                 <Separator/>
                 <TopBarItem
                     containedStyles="topbar-item item-2"
                     link={false}
                     iconName={ionIcons.timeOutline}
-                    description="Daily : 8.00 am to 10.00 pm"
+                    description="Daily : 11.00 am to 8.00 pm"
                 />
                 <TopBarItem
                     containedStyles="topbar-item"
                     link={true}
                     iconName={ionIcons.callOutline}
-                    description="+1 123 456 7890"
+                    description="+1 （902) (423)-5854"
                 />
                 <Separator/>
                 <TopBarItem
