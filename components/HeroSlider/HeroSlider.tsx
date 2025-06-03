@@ -3,6 +3,11 @@ import { SliderItem } from "../components";
 import { HeroSliderProps } from '@/types/types';
 import { slides } from '@/constants/constants';
 
+/**
+ * 滚动组件，主屏幕的轮播图
+ * @param currentSlidePosition
+ * @constructor
+ */
 const HeroSlider = ({currentSlidePosition} : HeroSliderProps) => {
     return (
         <ul className="hero-slider">
