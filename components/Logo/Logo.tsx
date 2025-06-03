@@ -5,12 +5,12 @@ import Image from 'next/image';
 const Logo = () => {
     return (
         <Link href="/" className="link logo">
+            {/*TODO : 左上角图标需要更新 */}
             <Image
-                {/*TODO : 左上角图标需要更新 */}
                 src='logo/tra-logo.jpg'
                 alt='Grilli-Logo'
-                width={120}
-                height={40}
+                width={160}
+                height={50}
                 className='d-block hght-auto'
             />
         </Link>
