@@ -23,15 +23,14 @@ const TopBar = () => {
                     containedStyles="topbar-item"
                     link={true}
                     iconName={ionIcons.callOutline}
-                    description="+1 （902) 423-5854"
+                    description="tel:+1 (902) 423-5854"
                 />
                 <Separator/>
-                {/* TODO: 超链接失效 */}
                 <TopBarItem
                     containedStyles="topbar-item"
                     link={true}
                     iconName={ionIcons.mailOutline}
-                    description="booking@restaurant.com"
+                    description="mailto:booking@restaurant.com"
                 />
             </div>
         </div>

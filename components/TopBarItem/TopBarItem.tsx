@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import './TopBarItem.css';
 import { IonIcon } from '@ionic/react';
@@ -8,16 +8,26 @@ const TopBarItem = ({containedStyles, link, iconName, description} : TopBarItemP
     return (
         <div className={`${containedStyles} ${link ? 'link' : ''}`}>
             <div className="icon">
-                <IonIcon 
-                    icon={iconName} 
+                <IonIcon
+                    icon={iconName}
                     aria-hidden="true"
                     className='ion-icon'
                 />
             </div>
-            <span className="span">{description}</span>
+            {link ? (
+                <a
+                    href={description}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="description-link"
+                >
+                    {description.replace(/^(mailto:|tel:)/, '')}
+                </a>
+            ) : (
+                <span className="span">{description}</span>
+            )}
         </div>
     )
 }
 
 export default TopBarItem;
-

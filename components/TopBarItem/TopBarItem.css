@@ -1,12 +1,14 @@
-@media (min-width: 575px){
-    .topbar-item:not(.link), .topbar .separator{
-        display: none;
-    }
+/* 针对电话图标和超链接的样式 */
+.topbar-item.link .ion-icon {
+    color: white;
 }
 
-@media (min-width: 992px){
-    .topbar-item:not(.link){ 
-        display: flex;
-    }
+.topbar-item.link .description-link {
+    color: white;
+    text-decoration: none;
 }
 
+.topbar-item.link .description-link:hover,
+.topbar-item.link .description-link:focus-visible {
+    text-decoration: underline;
+}
