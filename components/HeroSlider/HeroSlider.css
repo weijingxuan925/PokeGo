@@ -1,0 +1,5 @@
+.slider-item-text {
+    white-space: normal; /* 允许文字换行 */
+    word-wrap: break-word; /* 长单词换行 */
+    overflow-wrap: break-word; /* 兼容性处理 */
+}
