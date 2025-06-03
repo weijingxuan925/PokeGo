@@ -8,9 +8,9 @@ const Service = () => {
         <section className="section service bg-black-10 text-center">
             <div className="container">
                 <p className="section-subtitle label-2">Flavors For Royalty</p>
-                <h2 className={`${forum.className} headline-1 section-title`}>We Offer Top Notch</h2>
+                <h2 className={`${forum.className} headline-1 section-title`}>好吃爱吃</h2>
                 <p className="section-text">
-                    此处展示文字描述
+                    写点描述
                 </p>
                 <ServiceList/>
                 <Image

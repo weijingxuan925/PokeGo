@@ -11,7 +11,7 @@ const ServiceCard = ({cardNumber, cardTitle} : ServiceCardProps) => {
                 <Link href="/" className="link has-before hover:shine">
                     <figure className="card-banner img-holder" style={{ width: '285px', height: '336px'}}>
                         <Image
-                            src={`/service-${cardNumber}.jpg`}
+                            src={`/Serve/Serve-${cardNumber}.jpg`}
                             alt={cardTitle}
                             width={285}
                             height={336}
