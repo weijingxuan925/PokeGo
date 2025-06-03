@@ -5,7 +5,7 @@ const AboutBanner = () => {
     return (
         <figure className="about-banner">
             <Image
-                src='/about-banner.jpg'
+                src='/house.jpg'
                 alt='about-banner'
                 width={570}
                 height={570}
