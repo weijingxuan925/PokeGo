@@ -42,3 +42,11 @@
     transform: scale(1.05);
 }
 
+.event .grid-list {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: flex-start; /* 垂直顶部对齐 */
+    gap: 20px; /* 项目之间的间距 */
+    flex-wrap: nowrap; /* 禁止换行 */
+    padding: 20px;
+}
