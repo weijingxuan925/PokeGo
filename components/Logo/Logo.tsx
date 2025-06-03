@@ -6,10 +6,11 @@ const Logo = () => {
     return (
         <Link href="/" className="link logo">
             <Image
-                src='/logo.svg'
+                {/*TODO : 左上角图标需要更新 */}
+                src='logo/tra-logo.jpg'
                 alt='Grilli-Logo'
-                width={160}
-                height={50}
+                width={120}
+                height={40}
                 className='d-block hght-auto'
             />
         </Link>
