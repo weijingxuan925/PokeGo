@@ -24,3 +24,11 @@
     color: var(--quick-silver);
     line-height: var(--lineHeight-6);
 }
+.features .grid-list {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    gap: 20px; /* 项目之间的间距 */
+    flex-wrap: wrap; /* 如果屏幕较小，允许换行 */
+    padding: 20px;
+}
