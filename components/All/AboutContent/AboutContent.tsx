@@ -7,7 +7,7 @@ import { forum } from '@/app/fonts';
 const AboutContent = () => {
     return (
         <div className="about-content">
-            <p className="label-2 section-subtitle">讲故事</p>
+            <p className="label-2 section-subtitle">BROTH HOUSE</p>
             <h2 className={`${forum.className} headline-1 section-title`}>Every Flavor Tells a Story</h2>
             <p className="section-text">Embarking on a culinary journey, our restaurant story unfolds with a rich history of passion and dedication. We take pride in offering a dining experience that transcends time, where each dish is a testament to our commitment to excellence.</p>
             
