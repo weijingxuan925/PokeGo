@@ -1,3 +1,21 @@
+.special-dish {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.special-dish-banner {
+    width: 100%;
+    max-width: 948px;
+    margin-bottom: 20px;
+}
+
+.special-dish .img-cover {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
 .special-dish .abs-img{
     margin-inline: auto;
     margin-block-end: 12px;
@@ -12,6 +30,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         text-align: left;
+        gap: 20px;
     }
     
     .special-dish .section-subtitle::after, .special-dish .btn{
