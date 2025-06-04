@@ -21,9 +21,9 @@ const ServiceCard = ({cardNumber, cardTitle} : ServiceCardProps) => {
                 </Link>
                 <div className="cart-content">
                     <h3 className={`${forum.className} title-4 card-title`}>
-                        {/*<Link href="/" className="link">{cardTitle}</Link>*/}
+                        <Link href="/" className="link">{cardTitle}</Link>
                     </h3>
-                    <Link href="/public" className="link btn-text hover-underline label-2">View Menu</Link>
+                    <Link href="/" className="link btn-text hover-underline label-2">View Menu</Link>
                 </div>
             </div>
         </li>
