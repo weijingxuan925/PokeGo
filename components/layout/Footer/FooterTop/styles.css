@@ -1,0 +1,14 @@
+.footer-top {
+  margin-block-end: 70px;
+}
+
+.footer-top .grid-list {
+  gap: 50px 30px;
+}
+
+@media (min-width: 1024px) {
+  .footer-top {
+    grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr;
+    gap: 50px;
+  }
+} 

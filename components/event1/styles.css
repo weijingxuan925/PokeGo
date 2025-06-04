@@ -1,0 +1,12 @@
+.event {
+  padding-block: var(--section-padding);
+}
+
+.event .section-title {
+  margin-block-end: 40px;
+}
+
+.event .btn {
+  margin-inline: auto;
+  margin-block-start: 40px;
+} 

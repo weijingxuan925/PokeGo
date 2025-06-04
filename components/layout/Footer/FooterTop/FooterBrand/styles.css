@@ -1,0 +1,9 @@
+.footer-brand .footer-text {
+  margin-block: 20px;
+}
+
+@media (min-width: 1024px) {
+  .footer-brand .footer-text {
+    margin-block-end: 30px;
+  }
+} 

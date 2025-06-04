@@ -1,0 +1,58 @@
+.menu-card {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: var(--black);
+  transition: var(--transition-2);
+}
+
+.menu-card:hover {
+  background-color: var(--gold-crayola);
+  transform: translateY(-5px);
+}
+
+.menu-card .card-banner {
+  flex-shrink: 0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.menu-card .title-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-block-end: 10px;
+}
+
+.menu-card .card-title {
+  color: var(--white);
+  font-size: var(--fs-5);
+  font-weight: var(--fw-700);
+  transition: var(--transition-1);
+}
+
+.menu-card .badge {
+  background-color: var(--gold-crayola);
+  color: var(--black);
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.menu-card .span {
+  color: var(--gold-crayola);
+  font-weight: var(--fw-700);
+}
+
+.menu-card .card-text {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  line-height: 1.8;
+}
+
+.menu-card:hover :is(.card-title, .card-text) {
+  color: var(--black);
+}
+
+.menu-card:hover .span {
+  color: var(--black);
+} 

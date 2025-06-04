@@ -1,0 +1,43 @@
+.btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 24px;
+  border-radius: var(--radius-8);
+  font-weight: var(--fw-700);
+  text-transform: uppercase;
+  transition: var(--transition-1);
+}
+
+.btn-primary {
+  background: var(--primary-color);
+  color: var(--white);
+}
+
+.btn-primary:hover {
+  background: var(--white);
+  color: var(--primary-color);
+}
+
+.btn .span {
+  font-size: var(--fs-7);
+}
+
+.btn .material-symbols-outlined {
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .btn {
+    padding: 15px 30px;
+  }
+
+  .btn .span {
+    font-size: var(--fs-6);
+  }
+
+  .btn .material-symbols-outlined {
+    font-size: 24px;
+  }
+} 

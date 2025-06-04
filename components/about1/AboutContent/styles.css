@@ -1,0 +1,37 @@
+.about-content {
+  display: grid;
+  gap: 30px;
+}
+
+.about-content-left {
+  position: relative;
+}
+
+.about-img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.about-content-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-content-right .title-2 {
+  margin-block-end: 20px;
+}
+
+.about-content-right .section-text {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  line-height: 1.8;
+}
+
+@media (min-width: 768px) {
+  .about-content {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+} 

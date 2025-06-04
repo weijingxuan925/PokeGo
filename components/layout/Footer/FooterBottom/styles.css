@@ -1,0 +1,21 @@
+.footer-bottom {
+  margin-block: 60px;
+  text-align: center;
+}
+
+.copyright {
+  color: var(--white);
+  line-height: 1.6;
+}
+
+.copyright-link {
+  display: inline-block;
+  color: var(--gold-crayola);
+  font-weight: 600;
+}
+
+@media (min-width: 1024px) {
+  .footer-bottom {
+    margin-block: 100px;
+  }
+} 

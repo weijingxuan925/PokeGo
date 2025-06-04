@@ -1,0 +1,13 @@
+.reservation-form {
+  display: grid;
+  gap: 30px;
+  padding: 30px;
+  border-radius: 14px;
+}
+
+@media (min-width: 992px) {
+  .reservation-form {
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+  }
+} 

@@ -1,0 +1,30 @@
+.topbar-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: var(--white);
+  font-size: var(--fs-8);
+  font-weight: var(--weight-regular);
+  text-transform: uppercase;
+  letter-spacing: var(--letterSpacing-2);
+  transition: var(--transition-1);
+}
+
+.topbar-item:is(:hover, :focus) {
+  color: var(--gold-crayola);
+}
+
+.topbar-item .icon {
+  font-size: 1.6rem;
+}
+
+.topbar-item.item-2 {
+  margin-inline-end: auto;
+}
+
+@media (min-width: 1024px) {
+  .topbar-item {
+    font-size: var(--fs-7);
+  }
+} 

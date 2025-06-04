@@ -1,0 +1,22 @@
+.logo {
+  display: block;
+  width: fit-content;
+}
+
+.logo-img {
+  width: auto;
+  height: 40px;
+  object-fit: contain;
+}
+
+@media (min-width: 768px) {
+  .logo-img {
+    height: 50px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logo-img {
+    height: 60px;
+  }
+} 

@@ -1,0 +1,16 @@
+.footer-list-title {
+  color: var(--gold-crayola);
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-block-end: 15px;
+}
+
+.footer-list > li:not(:last-child) {
+  margin-block-end: 10px;
+}
+
+@media (min-width: 1024px) {
+  .footer-list > li:not(:last-child) {
+    margin-block-end: 16px;
+  }
+} 

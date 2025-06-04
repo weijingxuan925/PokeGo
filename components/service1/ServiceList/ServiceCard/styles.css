@@ -1,0 +1,47 @@
+.service-card {
+  position: relative;
+  background-color: var(--white);
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 0 20px hsla(0, 0%, 0%, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-banner {
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.cart-content {
+  margin-block-start: 20px;
+  text-align: center;
+}
+
+.card-title {
+  margin-block-end: 15px;
+}
+
+.card-title .link {
+  color: var(--rich-black-fogra-29);
+  transition: color 0.3s ease;
+}
+
+.card-title .link:hover {
+  color: var(--orange-soda);
+}
+
+.btn-text {
+  color: var(--orange-soda);
+  font-weight: var(--fw-600);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: color 0.3s ease;
+}
+
+.btn-text:hover {
+  color: var(--rich-black-fogra-29);
+} 

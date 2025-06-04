@@ -1,0 +1,17 @@
+.grid-list {
+  display: grid;
+  gap: 30px;
+  margin-block-start: 50px;
+}
+
+@media (min-width: 768px) {
+  .grid-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+} 

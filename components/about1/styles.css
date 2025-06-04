@@ -1,0 +1,29 @@
+.about {
+  position: relative;
+}
+
+.about .section-title {
+  margin-block-end: 40px;
+}
+
+.about .shape {
+  display: none;
+  position: absolute;
+  z-index: -1;
+}
+
+@media (min-width: 1024px) {
+  .about .shape {
+    display: block;
+  }
+
+  .about .shape-1 {
+    top: -100px;
+    right: -100px;
+  }
+
+  .about .shape-2 {
+    bottom: -100px;
+    left: -100px;
+  }
+} 

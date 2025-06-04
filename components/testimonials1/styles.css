@@ -1,0 +1,56 @@
+.testi {
+  position: relative;
+  padding-block: 120px;
+  text-align: center;
+  z-index: 1;
+}
+
+.testi::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--rich-black-fogra-29);
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.testi .quote {
+  font-size: 120px;
+  line-height: 1;
+  color: var(--orange-soda);
+  margin-block-end: 20px;
+}
+
+.testi .testi-text {
+  max-width: 600px;
+  margin-inline: auto;
+  margin-block-end: 30px;
+  color: var(--white);
+}
+
+.testi .wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-block-end: 30px;
+}
+
+.testi .profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.testi .profile .img {
+  border-radius: 50%;
+  border: 2px solid var(--orange-soda);
+}
+
+.testi .profile-name {
+  color: var(--white);
+  font-weight: var(--fw-600);
+} 

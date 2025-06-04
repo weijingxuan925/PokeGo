@@ -1,0 +1,32 @@
+.special-dish {
+  position: relative;
+  padding-block: 120px;
+}
+
+.special-dish .special-dish-banner {
+  max-width: 600px;
+  margin-inline: auto;
+  margin-block-end: 50px;
+}
+
+.special-dish .shape {
+  display: none;
+  position: absolute;
+  z-index: -1;
+}
+
+@media (min-width: 1024px) {
+  .special-dish .shape {
+    display: block;
+  }
+
+  .special-dish .shape-1 {
+    top: -100px;
+    left: -100px;
+  }
+
+  .special-dish .shape-2 {
+    bottom: -100px;
+    right: -100px;
+  }
+} 

@@ -1,0 +1,27 @@
+.features {
+  position: relative;
+}
+
+.features .section-title { margin-block-end: 40px; }
+
+.features .shape {
+  display: none;
+  position: absolute;
+  z-index: -1;
+}
+
+@media (min-width: 1024px) {
+  .features .shape {
+    display: block;
+  }
+
+  .features .shape-1 {
+    top: -100px;
+    right: -100px;
+  }
+
+  .features .shape-2 {
+    bottom: -100px;
+    left: -100px;
+  }
+} 

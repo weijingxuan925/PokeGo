@@ -1,0 +1,8 @@
+.footer-link {
+  color: var(--white);
+  transition: color 0.25s ease;
+}
+
+.footer-link:is(:hover, :focus) {
+  color: var(--gold-crayola);
+} 

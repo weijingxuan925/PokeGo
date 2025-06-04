@@ -1,0 +1,40 @@
+.menu {
+  position: relative;
+}
+
+.menu .section-title {
+  margin-block-end: 40px;
+}
+
+.menu .menu-text {
+  margin-block: 30px;
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+}
+
+.menu .menu-text .span {
+  color: var(--gold-crayola);
+  font-weight: var(--fw-700);
+}
+
+.menu .shape {
+  display: none;
+  position: absolute;
+  z-index: -1;
+}
+
+@media (min-width: 1024px) {
+  .menu .shape {
+    display: block;
+  }
+
+  .menu .shape-2 {
+    top: -100px;
+    right: -100px;
+  }
+
+  .menu .shape-3 {
+    bottom: -100px;
+    left: -100px;
+  }
+} 

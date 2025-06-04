@@ -1,0 +1,38 @@
+.service {
+  position: relative;
+}
+
+.service .section-title {
+  margin-block-end: 40px;
+}
+
+.service .section-text {
+  max-width: 600px;
+  margin-inline: auto;
+  margin-block-end: 40px;
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  line-height: 1.8;
+}
+
+.service .shape {
+  display: none;
+  position: absolute;
+  z-index: -1;
+}
+
+@media (min-width: 1024px) {
+  .service .shape {
+    display: block;
+  }
+
+  .service .shape-1 {
+    top: -100px;
+    left: -100px;
+  }
+
+  .service .shape-2 {
+    bottom: -100px;
+    right: -100px;
+  }
+} 

@@ -1,0 +1,41 @@
+.event-card {
+  position: relative;
+  background-color: var(--white);
+  border-radius: 14px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+}
+
+.event-card .card-banner {
+  position: relative;
+}
+
+.event-card .publisher-date {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--orange-soda);
+  color: var(--white);
+  font-weight: var(--fw-600);
+  padding: 4px 10px;
+  border-radius: 0 0 14px 0;
+}
+
+.event-card .card-content {
+  padding: 30px;
+}
+
+.event-card .card-subtitle {
+  color: var(--orange-soda);
+  margin-block-end: 10px;
+}
+
+.event-card .card-title-title-2 {
+  color: var(--rich-black-fogra-29);
+  font-size: var(--fs-4);
+  line-height: 1.4;
+} 

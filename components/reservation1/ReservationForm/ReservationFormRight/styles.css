@@ -1,0 +1,42 @@
+.form-right {
+  background-color: var(--rich-black-fogra-29);
+  padding: 30px;
+  color: var(--white);
+  border-radius: 14px;
+  background-repeat: repeat;
+  background-size: 20px;
+}
+
+.form-right .headline-1 {
+  margin-block-end: 30px;
+}
+
+.form-right .contact-label {
+  color: var(--orange-soda);
+  font-weight: var(--fw-600);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-block-end: 10px;
+}
+
+.form-right .contact-number {
+  color: var(--white);
+  font-size: var(--fs-3);
+  font-weight: var(--fw-600);
+  margin-block-end: 30px;
+}
+
+.form-right address {
+  margin-block-end: 30px;
+  font-style: normal;
+}
+
+.form-right .body-4 {
+  margin-block-end: 30px;
+}
+
+@media (min-width: 992px) {
+  .form-right {
+    border-radius: 0 14px 14px 0;
+  }
+} 
